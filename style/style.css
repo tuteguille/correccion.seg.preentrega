@@ -56,15 +56,22 @@ h1{
     padding: 8px;
 }
 
+footer{
+    position: absolute;
+    bottom: 0;
+}
 @media screen and (min-width: 576px){ 
   #navegador{
     background-color: aqua;
   }
   
-  
+
   
 }
 @media screen and (max-width: 768px){ 
+    body{
+        height: 100%;
+    }
     #navegador{
       background-color: rgb(0, 149, 255);
      
